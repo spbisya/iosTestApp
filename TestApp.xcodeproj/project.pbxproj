@@ -12,6 +12,8 @@
 		C439BE3D1E8933B800608669 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C439BE3B1E8933B800608669 /* Main.storyboard */; };
 		C439BE3F1E8933B900608669 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C439BE3E1E8933B900608669 /* Assets.xcassets */; };
 		C439BE421E8933B900608669 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C439BE401E8933B900608669 /* LaunchScreen.storyboard */; };
+		C439BE4A1E89345200608669 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439BE491E89345200608669 /* ImageViewController.swift */; };
+		C439BE501E89421400608669 /* ViewControllerPannable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C439BE4F1E89421400608669 /* ViewControllerPannable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		C439BE3E1E8933B900608669 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C439BE411E8933B900608669 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C439BE431E8933B900608669 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C439BE491E89345200608669 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		C439BE4F1E89421400608669 /* ViewControllerPannable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerPannable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				C439BE3E1E8933B900608669 /* Assets.xcassets */,
 				C439BE401E8933B900608669 /* LaunchScreen.storyboard */,
 				C439BE431E8933B900608669 /* Info.plist */,
+				C439BE491E89345200608669 /* ImageViewController.swift */,
+				C439BE4F1E89421400608669 /* ViewControllerPannable.swift */,
 			);
 			path = TestApp;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C439BE3A1E8933B800608669 /* ViewController.swift in Sources */,
+				C439BE4A1E89345200608669 /* ImageViewController.swift in Sources */,
 				C439BE381E8933B800608669 /* AppDelegate.swift in Sources */,
+				C439BE501E89421400608669 /* ViewControllerPannable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
